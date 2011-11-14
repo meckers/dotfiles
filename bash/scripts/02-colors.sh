@@ -36,4 +36,4 @@ esac
 export CLICOLOR=1
 export LSCOLORS=ExGxcxdxCxegedabagacad
 export PROMPT_COMMAND='if [ $? -ne 0 ];then ERROR_FLAG=1;else ERROR_FLAG=;fi; '
-export PS1=${USERCOLOR}'\u'${sh_darkgray}'@'${HOSTCOLOR}'\h'${sh_norm}' \w\n'${sh_norm}' ${ERROR_FLAG:+'${sh_light_red}'}\$${ERROR_FLAG:+'${sh_norm}'} '
+export PS1=${USERCOLOR}'\u'${sh_white}'@'${HOSTCOLOR}'\h'${sh_norm}' \w\n'${sh_norm}' ${ERROR_FLAG:+'${sh_light_red}'}\$${ERROR_FLAG:+'${sh_norm}'} '
